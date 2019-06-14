@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const Tabs = props => {
   return (
 
-    <div>{props.tabs.map(tab => <Tab key={tab.id} tab={tab} />)}</div>
+    <div>{props.selectedTabHandler.map(tab => <Tab key={tab.id} tab={tab} />)}</div>
 
 
 
