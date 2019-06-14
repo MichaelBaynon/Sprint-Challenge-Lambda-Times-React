@@ -29,9 +29,24 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+Proptypes defines the type and which props are needed. Most notably typechecking is gonna either detect 
+bugs or stop them from happening in the first place.
+
 - [ ] Describe a life-cycle event in React?
+
+A life-cycle event is whats happening under the hood. Essentially the components stages of life. People equat  mounting to birth, updating to growing up, and unmounting to death. 
+
+
 - [ ] Explain the details of a Higher Order Component?
+
+HOC are valuable because they are reusable logic. HOCs receive a component as an argument and return a new component. 
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+css stylesheet - my personal favorite most simple in my opinion because you dont need other code just to detect read and implement this code.
+inline styling - you are literally gonna do the styling right there i feel this method my be quickest yet can probaly get disorganzid quite quick
+styled components - react library that allows you to right the 'css' right there in the js file a little more confusing at first but pretty well organized
 
 ## Project Setup
 
@@ -69,3 +84,5 @@ There are multiple stretch challenges available to you, you may attempt these in
 - [ ] You will find a `Carousel` component in your Content folder. Complete this component, rendering a functional carousel. Add this component between your `Tabs` and `Cards` components within the `Content` component. Added challenge: make it so that there is infinite scroll to the right and the left.
 
 - [ ] Add a login and an HOC. Make it so that when a user clicks on the login button at the top, a login modal is shown (Use React-strap). Have a user login, validating the login credentials on the `localStorage`. Add a Higher Order Component that wraps the `Content` component, only allowing it to render once a user has logged in. For more instructions see this README: [React-Insta-Clone: Day III](https://github.com/LambdaSchool/React-Insta-Clone/blob/master/DAY_THREE_README.md#tasks-day-iii)
+
+:)
