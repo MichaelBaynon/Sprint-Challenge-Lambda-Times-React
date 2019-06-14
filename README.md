@@ -29,9 +29,24 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+Proptypes defines the type and which props are needed. Most notably typechecking is gonna either detect 
+bugs or stop them from happening in the first place.
+
 - [ ] Describe a life-cycle event in React?
+
+A life-cycle event is whats happening under the hood. Essentially the components stages of life. People equat  mounting to birth, updating to growing up, and unmounting to death. 
+
+
 - [ ] Explain the details of a Higher Order Component?
+
+HOC are valuable because they are reusable logic. HOCs receive a component as an argument and return a new component. 
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+css stylesheet - my personal favorite most simple in my opinion because you dont need other code just to detect read and implement this code.
+inline styling - you are literally gonna do the styling right there i feel this method my be quickest yet can probaly get disorganzid quite quick
+styled components - react library that allows you to right the 'css' right there in the js file a little more confusing at first but pretty well organized
 
 ## Project Setup
 
